@@ -4,18 +4,13 @@
 
 import Foundation
 
-enum DevicePlatform {
-    case ios
-    case android
-}
-
 struct DeviceModel: Codable {
     // Device ID
     let id: Int
     // Device token
     let token: String
     // Device platform
-    let platform: DevicePlatform
+    let platform: String
     // OS Version
     let os_version: String
 }

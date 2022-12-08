@@ -12,9 +12,9 @@ struct ContentView: View {
     var body: some View {
         VStack {
             Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+                    .imageScale(.large)
+                    .foregroundColor(.accentColor)
+            Text("Shopfans Swift UI!").bold().padding(8)
         }
         .padding()
     }

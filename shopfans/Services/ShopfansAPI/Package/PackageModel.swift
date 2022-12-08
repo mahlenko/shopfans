@@ -4,13 +4,6 @@
 
 import Foundation
 
-enum PackageStatus {
-    case awaiting   // 400
-    case lost       // 450
-    case arrived    // 500
-    case returned   // 510
-}
-
 struct PackageModel: Codable {
 // Package ID. Integer type.
     let id: Int
@@ -27,7 +20,7 @@ struct PackageModel: Codable {
     // Customer notes. String type.
     let notes: String
     // Status of the package.
-    let status: PackageStatus
+    let status: Int
     // Damaged flag ofthe package. Bool type (0 - 1).
     let damaged: Bool
     // Arrived date. Date format: YYYY-MM-DDThh:mm.

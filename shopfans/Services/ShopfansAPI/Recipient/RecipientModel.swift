@@ -4,13 +4,6 @@
 
 import Foundation
 
-enum RecipientStatus {
-    case waiting
-    case invalid
-    case ready
-    case verified
-}
-
 struct RecipientModel: Codable {
     // Recipient ID
     let id: Int
@@ -61,5 +54,5 @@ struct RecipientModel: Codable {
     // TRUE if recipient can not be changed, FALSE otherwise
     let readonly: Bool
     // Recipient status
-    let status: RecipientStatus
+    let status: String
 }
