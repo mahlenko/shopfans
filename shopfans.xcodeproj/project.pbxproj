@@ -9,11 +9,11 @@
 /* Begin PBXBuildFile section */
 		FB30E2DAA2958ABAF2EDE774 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB30EE5BD9195F0CBBD7BAE9 /* ContentView.swift */; };
 		FB30E315600D5B2FA3DDAD92 /* PackageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB30E5D8B3AC22B83EAA1C8E /* PackageModel.swift */; };
-		FB30E4679D829F5D594CD18E /* readme.md in Sources */ = {isa = PBXBuildFile; fileRef = FB30E2F1D736EE6C456A87D5 /* readme.md */; };
 		FB30E5585938BB0C2FB2C0EE /* AddressTypeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB30E3C69B1EA9F05C6CE178 /* AddressTypeModel.swift */; };
 		FB30E5EA7675ABBB504DF459 /* AddressModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB30E194977097A2BF1EEE97 /* AddressModel.swift */; };
 		FB30E65E1F7412889C8D36AA /* DeliveryMethodModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB30E03C50AC4B23FAFF7820 /* DeliveryMethodModel.swift */; };
 		FB30E6AE9874A452428450E6 /* LanguageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB30EF14955724C0F79BDAEA /* LanguageModel.swift */; };
+		FB30E76220915A321CD9FB7A /* ErrorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB30EA5E25E40A32B2D7BB29 /* ErrorModel.swift */; };
 		FB30E76AB39CFAF4FCD18BCC /* ThemeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB30E0E59FA11C2C97B55D9C /* ThemeModel.swift */; };
 		FB30E7BC96B55CB2D099A749 /* DeviceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB30EE9CAD080A8622DE2252 /* DeviceModel.swift */; };
 		FB30E80F951876933DF4C8A4 /* RecipientModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB30E9CF0C6ADBBD24E1F336 /* RecipientModel.swift */; };
@@ -22,11 +22,13 @@
 		FB30EA1FCA24BA1633B6F8EB /* ShopfansAddressModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB30EF56CACE8118C5E7E3C3 /* ShopfansAddressModel.swift */; };
 		FB30EB1F0C354BF625DA8C3E /* UcxCategoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB30EE5F3472063282220316 /* UcxCategoryModel.swift */; };
 		FB30EBDEBCFE9EAF51D7885D /* ProfileModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB30E1A9F9768A6B88598216 /* ProfileModel.swift */; };
+		FB30EC2BB785C1FCC958B9AC /* ValidationFieldModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB30EEEDBACB605159548503 /* ValidationFieldModel.swift */; };
 		FB30ECE2B27F96F3A4660446 /* VersionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB30EE9CD60F11466298FA0F /* VersionModel.swift */; };
 		FB30EDC9B9F419D96F386937 /* CountryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB30E1985C533C2C7466BAC7 /* CountryModel.swift */; };
 		FB30EE662E16F010CAE376DC /* shopfansApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB30EC893797262628B298EC /* shopfansApp.swift */; };
 		FB30EEA0FCCE5ACC7522AA1F /* StateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB30E05EE81477F5330E0DA2 /* StateModel.swift */; };
 		FB30EF3930D41BED307C6295 /* DeclarationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB30EA6AB175A657D69C56A8 /* DeclarationModel.swift */; };
+		FB30EFA63F5CE68E064FCCEE /* ErrorValidationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB30EDE14DFD725B23E52B7A /* ErrorValidationModel.swift */; };
 		FB30EFF07B358D6A100F4514 /* PhotoRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB30E49CC29339FCD527DAA5 /* PhotoRequestModel.swift */; };
 		FB30EFF6A62DF39AAFB64409 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB30E7D29AC1759B2B48C36E /* Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -45,14 +47,17 @@
 		FB30E7D29AC1759B2B48C36E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB30E9CF0C6ADBBD24E1F336 /* RecipientModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipientModel.swift; sourceTree = "<group>"; };
 		FB30E9F29ECA5A33B0309BDE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FB30EA5E25E40A32B2D7BB29 /* ErrorModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorModel.swift; sourceTree = "<group>"; };
 		FB30EA6AB175A657D69C56A8 /* DeclarationModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeclarationModel.swift; sourceTree = "<group>"; };
 		FB30EBEFA5428739CA6839CC /* CityModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CityModel.swift; sourceTree = "<group>"; };
 		FB30EC893797262628B298EC /* shopfansApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shopfansApp.swift; sourceTree = "<group>"; };
 		FB30ED0B499BABFD56DE3E3C /* shopfans.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = shopfans.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB30EDE14DFD725B23E52B7A /* ErrorValidationModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorValidationModel.swift; sourceTree = "<group>"; };
 		FB30EE5BD9195F0CBBD7BAE9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FB30EE5F3472063282220316 /* UcxCategoryModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UcxCategoryModel.swift; sourceTree = "<group>"; };
 		FB30EE9CAD080A8622DE2252 /* DeviceModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceModel.swift; sourceTree = "<group>"; };
 		FB30EE9CD60F11466298FA0F /* VersionModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VersionModel.swift; sourceTree = "<group>"; };
+		FB30EEEDBACB605159548503 /* ValidationFieldModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidationFieldModel.swift; sourceTree = "<group>"; };
 		FB30EF14955724C0F79BDAEA /* LanguageModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LanguageModel.swift; sourceTree = "<group>"; };
 		FB30EF56CACE8118C5E7E3C3 /* ShopfansAddressModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShopfansAddressModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -86,6 +91,7 @@
 				FB30E0CB146CBBC356F224CE /* Recipient */,
 				FB30E77D17FE633796261E18 /* Declaration */,
 				FB30EFBDE86DBC16B82FAD38 /* Device */,
+				FB30EF98013974BC06E7A845 /* ErrorHandling */,
 			);
 			path = ShopfansAPI;
 			sourceTree = "<group>";
@@ -185,6 +191,16 @@
 			path = Services;
 			sourceTree = "<group>";
 		};
+		FB30EF98013974BC06E7A845 /* ErrorHandling */ = {
+			isa = PBXGroup;
+			children = (
+				FB30EA5E25E40A32B2D7BB29 /* ErrorModel.swift */,
+				FB30EDE14DFD725B23E52B7A /* ErrorValidationModel.swift */,
+				FB30EEEDBACB605159548503 /* ValidationFieldModel.swift */,
+			);
+			path = ErrorHandling;
+			sourceTree = "<group>";
+		};
 		FB30EFBDE86DBC16B82FAD38 /* Device */ = {
 			isa = PBXGroup;
 			children = (
@@ -218,6 +234,9 @@
 /* Begin PBXProject section */
 		FB30E5555B74274445CAB318 /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = team.appto;
+			};
 			buildConfigurationList = FB30EA7E0D59BB276AA85EA8 /* Build configuration list for PBXProject "shopfans" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
@@ -271,7 +290,9 @@
 				FB30E315600D5B2FA3DDAD92 /* PackageModel.swift in Sources */,
 				FB30E80F951876933DF4C8A4 /* RecipientModel.swift in Sources */,
 				FB30EBDEBCFE9EAF51D7885D /* ProfileModel.swift in Sources */,
-				FB30E4679D829F5D594CD18E /* readme.md in Sources */,
+				FB30E76220915A321CD9FB7A /* ErrorModel.swift in Sources */,
+				FB30EFA63F5CE68E064FCCEE /* ErrorValidationModel.swift in Sources */,
+				FB30EC2BB785C1FCC958B9AC /* ValidationFieldModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
